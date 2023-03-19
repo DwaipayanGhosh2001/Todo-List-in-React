@@ -12,7 +12,11 @@ const App= () => {
     return (
         <TodoContext.Provider value={{todos, dispatch}}>
             <Container fluid>
-               
+          
+            <img
+    alt="Sample"
+    src="https://picsum.photos/300/200" className=" mx-auto d-block image"
+  />
 <h1>
     Todo Application
 </h1>
